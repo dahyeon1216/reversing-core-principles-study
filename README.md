@@ -1,2 +1,93 @@
-# reversing-core-principles-study
-「리버싱 핵심원리」를 기반으로 한 리버싱 학습 기록 및 실습 저장소 / Reverse engineering study based on Reversing Core Principles, including binary analysis, debugging notes, and hands-on labs
+# Reversing Core Principles Study
+
+이 저장소는 **「리버싱 핵심원리」** 책을 기반으로 한  
+리버스 엔지니어링(Reverse Engineering) 학습 기록 저장소입니다.
+
+단순한 이론 정리가 아니라,  
+**실제 바이너리를 분석하며 사고한 과정과 실습 내용**을  
+커밋 히스토리와 함께 남기는 것을 목표로 합니다.
+
+---
+
+## 🌀 학습 목표
+
+- 리버싱 핵심 개념을 기초부터 체계적으로 이해
+- Windows 실행 파일(PE) 구조와 동작 방식 분석
+- x86 / x64 어셈블리 코드 해석 능력 향상
+- 디버거와 디스어셈블러를 활용한 분석 흐름 정립
+- 보안 및 시스템 분야에 활용 가능한 분석 역량 강화
+
+---
+
+## 🔨 사용 도구 및 환경
+
+- 디버거(Debugger): x32dbg, x64dbg, WinDbg
+- 디스어셈블러(Disassembler): IDA, Ghidra
+- 프로그래밍 언어: C / C++, Assembly (x86, x64)
+- 운영체제: Windows
+- 버전 관리: Git / GitHub  
+  (커밋 히스토리를 통해 분석 진행 과정을 기록)
+
+---
+
+## 📂 저장소 구조
+
+.
+├─ chapters/ # 챕터별 이론 정리 및 실습
+│ ├─ ch01-introduction/
+│ ├─ ch02-pe-format/
+│ ├─ ch03-assembly/
+│ └─ ...
+│
+├─ labs/ # 리버싱 실습 및 Crackme 분석
+│ ├─ crackme01/
+│ │ ├─ README.md # 상세 분석 리포트
+│ │ ├─ crackme.exe
+│ │ └─ notes.md
+│ └─ ...
+│
+├─ notes/ # 개념 요약 및 참고 노트
+│ ├─ pe-structure.md
+│ ├─ calling-convention.md
+│ └─ winapi-notes.md
+│
+└─ README.md
+
+
+---
+
+## 🧠 학습 방식
+
+각 실습 및 분석은 다음과 같은 흐름으로 진행합니다.
+
+1. 실행 파일 구조 분석 (PE 헤더, 섹션 정보 확인)
+2. Entry Point 및 전체 실행 흐름 파악
+3. 디버깅을 통한 주요 로직 추적
+4. 가설 수립 후 동적 분석으로 검증
+5. 분석 결과를 문서와 코드로 정리
+
+분석 과정에서의 **시행착오와 수정 내역**은  
+커밋 히스토리에 그대로 남깁니다.
+
+---
+
+## ⚠️ 법적·윤리적 고지
+
+- 본 저장소는 **학습 및 연구 목적**으로만 사용됩니다.
+- 사용되는 바이너리는 Crackme 또는 개인 실습용 파일입니다.
+- 상용 소프트웨어 및 실제 서비스 취약점은 포함하지 않습니다.
+
+---
+
+## 📖 참고 자료
+
+- 「리버싱 핵심원리」
+- 각 챕터별 참고 자료는 해당 디렉토리에 별도 정리합니다.
+
+---
+
+## 📌 참고 사항
+
+이 저장소는 **정답만 기록하는 공간이 아닙니다.**  
+분석 중 발생한 실수, 잘못된 추론, 수정 과정까지 포함하여  
+실제 리버싱 학습 흐름을 그대로 보존하는 것을 목표로 합니다.
