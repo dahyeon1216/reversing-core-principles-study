@@ -31,27 +31,26 @@
 ---
 
 ## 📂 저장소 구조
-
 .
-├─ chapters/ # 챕터별 이론 정리 및 실습
-│ ├─ ch01-introduction/
-│ ├─ ch02-pe-format/
-│ ├─ ch03-assembly/
-│ └─ ...
+├── chapters/                         # 챕터별 이론 정리 및 실습
+│   ├── ch01-introduction/
+│   ├── ch02-pe-format/
+│   ├── ch03-assembly/
+│   └── ...
 │
-├─ labs/ # 리버싱 실습 및 Crackme 분석
-│ ├─ crackme01/
-│ │ ├─ README.md # 상세 분석 리포트
-│ │ ├─ crackme.exe
-│ │ └─ notes.md
-│ └─ ...
+├── labs/                             # 리버싱 실습 및 Crackme 분석
+│   ├── crackme01/
+│   │   ├── README.md                # 상세 분석 리포트
+│   │   ├── crackme.exe
+│   │   └── notes.md
+│   └── ...
 │
-├─ notes/ # 개념 요약 및 참고 노트
-│ ├─ pe-structure.md
-│ ├─ calling-convention.md
-│ └─ winapi-notes.md
+├── notes/                            # 개념 요약 및 참고 노트
+│   ├── pe-structure.md
+│   ├── calling-convention.md
+│   └── winapi-notes.md
 │
-└─ README.md
+└── README.md
 
 
 ---
