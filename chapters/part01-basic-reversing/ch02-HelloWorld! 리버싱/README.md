@@ -296,3 +296,7 @@ NULL padding 영역을 문자열 버퍼로 사용할 수 있다.
 어셈블리 창에서  
 MessageBoxW 함수의 파라미터 주소를 수정하면  
 출력 문자열을 변경할 수 있다.
+
+---
+## 📝Full Notes
+https://delicate-dish-b60.notion.site/2-Hello-World-2e7a4c0c427280929370d3cb4a6f82bb?source=copy_link
